@@ -1,0 +1,41 @@
+---
+import Icon from 'fluentui-astro-icons';
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>fluentui-astro-icons</title>
+    <style>
+      :root { color-scheme: light dark; }
+      html, body { background: Canvas; color: CanvasText; }
+      body { margin: 2rem auto; max-width: 40rem; font: 16px/1.5 system-ui, sans-serif; }
+      h1 { font-size: 1.25rem; font-weight: 650; }
+      .row { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 1rem 0 2rem; }
+      .rtl { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.35rem; border: 1px solid color-mix(in srgb, CanvasText 20%, transparent); padding: 0.75rem 1rem; border-radius: 0.5rem; }
+      code { font-size: 0.9em; }
+    </style>
+  </head>
+  <body>
+    <h1>fluentui-astro-icons</h1>
+    <p>Server-rendered Fluent System Icons. The HTML contains real <code>&lt;svg&gt;</code> and no icon runtime.</p>
+
+    <div class="row">
+      <Icon name="home" />
+      <Icon name="mail" variant="color" size={32} label="Inbox" />
+      <Icon name="arrow-left" flipRtl />
+      <Icon name="settings" variant="filled" size={24} />
+      <Icon name="search" />
+      <Icon name="calendar" variant="color" size={32} label="Calendar" />
+    </div>
+
+    <p>In text: the <Icon name="home" /> icon inherits 1em, and <Icon name="mail" /> stays decorative.</p>
+
+    <div class="rtl" dir="rtl">
+      <span>RTL with <code>flipRtl</code>: </span>
+      <Icon name="arrow-left" flipRtl />
+      <span> without: </span>
+      <Icon name="arrow-left" />
+    </div>
+  </body>
+</html>

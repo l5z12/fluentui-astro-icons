@@ -1,0 +1,20 @@
+---
+import type { IconName, IconVariant } from 'fluentui-web-icons';
+import { renderIcon } from './src/render.ts';
+
+interface Props {
+  name: IconName;
+  variant?: IconVariant;
+  size?: number;
+  label?: string;
+  flipRtl?: boolean;
+}
+
+const html = await renderIcon(Astro.props);
+---
+<Fragment set:html={html} />
+<style is:global>
+  svg.fluent-icon[flip-rtl]:dir(rtl) {
+    transform: scaleX(-1);
+  }
+</style>

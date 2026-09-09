@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+playground/dist/
+playground/.astro/
+*.tgz
+.DS_Store
