@@ -11,6 +11,8 @@ served through [fluentui-web-icons](https://www.npmjs.com/package/fluentui-web-i
 [![npm](https://img.shields.io/npm/v/fluentui-astro-icons.svg)](https://www.npmjs.com/package/fluentui-astro-icons)
 [![license](https://img.shields.io/npm/l/fluentui-astro-icons.svg)](LICENSE)
 
+Demo: [l5z12.github.io/fluentui-astro-icons](https://l5z12.github.io/fluentui-astro-icons/)
+
 The web-component sibling is [fluentui-web-icons](https://github.com/l5z12/fluentui-web-icons)
 ([explorer](https://icons.l5z12.dev)). Use that when you want `<fluent-icon>` in
 the browser. Use this package when Astro should bake SVG into the HTML.
@@ -105,6 +107,9 @@ named families instead of flipping them.
 bun install
 bun run dev
 ```
+
+Pushing `main` publishes that playground to
+[GitHub Pages](https://l5z12.github.io/fluentui-astro-icons/).
 
 ```sh
 bun run check

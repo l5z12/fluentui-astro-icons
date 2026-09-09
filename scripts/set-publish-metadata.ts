@@ -11,6 +11,6 @@ const path = join(root, 'package.json');
 const pkg = await Bun.file(path).json();
 pkg.repository = { type: 'git', url: `${url}.git` };
 pkg.bugs = { url: `${url}/issues` };
-pkg.homepage = `${url}#readme`;
+pkg.homepage = 'https://l5z12.github.io/fluentui-astro-icons/';
 await Bun.write(path, `${JSON.stringify(pkg, null, 2)}\n`);
 console.log(`Publish metadata set for ${url}`);

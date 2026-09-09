@@ -11,7 +11,8 @@ bun install
 bun run dev
 ```
 
-The playground is the Astro app under `playground/`.
+The playground is the Astro app under `playground/`. Pushing `main` deploys it
+to [GitHub Pages](https://l5z12.github.io/fluentui-astro-icons/).
 
 ## What belongs here
 

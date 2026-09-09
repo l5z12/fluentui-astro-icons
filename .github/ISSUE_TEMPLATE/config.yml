@@ -6,6 +6,9 @@ contact_links:
   - name: fluentui-web-icons
     url: https://github.com/l5z12/fluentui-web-icons/issues
     about: Issues in the web-component wrapper or generated icon data.
+  - name: Astro playground
+    url: https://l5z12.github.io/fluentui-astro-icons/
+    about: Static no-JS demo of this package.
   - name: Icon explorer
     url: https://icons.l5z12.dev
     about: Search and preview Fluent System Icons.
