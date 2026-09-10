@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.340
+
+- Sync icon artwork from `fluentui-web-icons` 1.1.340.
+
 ## 1.1.339
 
 - Initial release of Fluent System Icons as static Astro `<svg>` markup.
