@@ -6,7 +6,7 @@ JavaScript, custom elements, or Shadow DOM.
 This is an independent wrapper, not an official Microsoft package. The artwork
 is from [Fluent System Icons](https://github.com/microsoft/fluentui-system-icons),
 served through [fluentui-web-icons](https://www.npmjs.com/package/fluentui-web-icons)
-`1.1.340`. Family data is imported on the server; the page gets markup.
+`1.1.341`. Family data is imported on the server; the page gets markup.
 
 [![npm](https://img.shields.io/npm/v/fluentui-astro-icons.svg)](https://www.npmjs.com/package/fluentui-astro-icons)
 [![license](https://img.shields.io/npm/l/fluentui-astro-icons.svg)](LICENSE)

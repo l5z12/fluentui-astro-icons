@@ -1,6 +1,6 @@
 {
   "name": "fluentui-astro-icons",
-  "version": "1.1.340",
+  "version": "1.1.341",
   "description": "Fluent System Icons for Astro as inline SVG from SSG/SSR. Zero client JavaScript.",
   "type": "module",
   "license": "MIT",
@@ -51,7 +51,7 @@
     "icons:check": "bun scripts/check-upstream.ts"
   },
   "dependencies": {
-    "fluentui-web-icons": "1.1.340"
+    "fluentui-web-icons": "1.1.341"
   },
   "peerDependencies": {
     "astro": ">=4"
