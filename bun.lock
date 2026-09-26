@@ -5,7 +5,7 @@
     "": {
       "name": "fluentui-astro-icons",
       "dependencies": {
-        "fluentui-web-icons": "^1.1.342",
+        "fluentui-web-icons": "^1.1.343",
       },
       "devDependencies": {
         "@types/bun": "1.4.2",
@@ -367,7 +367,7 @@
 
     "flattie": ["flattie@1.1.1", "", {}, "sha512-9UbaD6XdAL97+k/n+N7JwX46K/M6Zc6KcFYskrYL8wbBV/Uyk0CTAMY0VT+qiK5PM7AIc9aTWYtq65U7T+aCNQ=="],
 
-    "fluentui-web-icons": ["fluentui-web-icons@1.1.342", "", {}, "sha512-3bLplKSYbplcSEpLWM8hlgoHwA1lHCWxC0vydVrRPzdQIwKamwzqFbj1e7FYAOV06fk1srfmQfIlpBX7n7HNJg=="],
+    "fluentui-web-icons": ["fluentui-web-icons@1.1.343", "", {}, "sha512-GOG4PbQmZ+LPKrBvDD0bpImdpKXnpGphhqW516if7b2sdQa6c5nQUI2eP3tKQo5fwFs+BT0/giV6PRfPmI2pJQ=="],
 
     "fontace": ["fontace@0.4.1", "", { "dependencies": { "fontkitten": "^1.0.2" } }, "sha512-lDMvbAzSnHmbYMTEld5qdtvNH2/pWpICOqpean9IgC7vUbUJc3k+k5Dokp85CegamqQpFbXf0rAVkbzpyTA8aw=="],
 
