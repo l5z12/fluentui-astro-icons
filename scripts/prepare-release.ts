@@ -4,6 +4,10 @@ const root = resolve(import.meta.dir, '..');
 const upstream = await Bun.file(join(root, 'node_modules/fluentui-web-icons/package.json')).json();
 const version = String(upstream.version ?? '');
 if (!/^\d+\.\d+\.\d+$/.test(version)) throw new Error(`Unexpected fluentui-web-icons version: ${version}`);
+const expected = process.argv[2];
+if (version !== expected) {
+  throw new Error(`Expected fluentui-web-icons ${expected ?? '(missing target)'}, but installed ${version}. Refusing to prepare a different release.`);
+}
 
 const packagePath = join(root, 'package.json');
 const pkg = await Bun.file(packagePath).json();

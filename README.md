@@ -119,32 +119,6 @@ bun run verify:package
 See [CONTRIBUTING.md](CONTRIBUTING.md) for pull requests and [SECURITY.md](SECURITY.md)
 for vulnerability reports.
 
-## Release
-
-The first npm version has to be published from a maintainer machine. npm
-cannot attach [trusted publishers](https://docs.npmjs.com/trusted-publishers/)
-until the package exists.
-
-```sh
-npm login
-bun run verify:package
-bun run release:first
-```
-
-Then add trusted publishers on npm for this repository and both `publish.yml`
-and `sync-icons.yml`. Provenance needs a public GitHub repository. After that,
-later versions publish from GitHub Actions.
-
-This package's version **matches `fluentui-web-icons`**. Every six hours,
-`.github/workflows/sync-icons.yml` checks npm, updates when that package
-publishes, tags `v{version}`, and publishes — only once this package is already
-on the registry.
-
-```sh
-git tag v1.1.339
-git push origin v1.1.339
-```
-
 ## License
 
 MIT for the wrapper and Microsoft artwork. See [LICENSE](LICENSE) and
