@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.346
+
+- Sync icon artwork from `fluentui-web-icons` 1.1.346.
+
 ## 1.1.345
 
 - Sync icon artwork from `fluentui-web-icons` 1.1.345.
